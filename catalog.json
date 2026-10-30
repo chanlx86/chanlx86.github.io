@@ -1,6 +1,6 @@
 {
-  "schema": 1,
-  "base_url": "https://chanlx86.github.io/",
+  "schema": 2,
+  "base_url": "https://chanlx86.github.io/repo/",
   "apps": [
     {
       "id": "j2me",
@@ -22,12 +22,16 @@
               "size": 8433033,
               "sha256": "5d3703db3d7045612c1f3defe52376ff8869a5b9516b093388fb8445a668bebf",
               "type": "ipa",
-              "label": "IPA 安装包"
+              "label": "IPA 安装包",
+              "manifest": "repo/manifests/j2me/build65.plist",
+              "install_url": "itms-services://?action=download-manifest&url=https%3A%2F%2Fchanlx86.github.io%2Frepo%2Fmanifests%2Fj2me%2Fbuild65.plist",
+              "download_url": "https://chanlx86.github.io/ipa/j2me/build65/j2me.ipa"
             }
           ]
         }
       ],
-      "icon": "icons/j2me.png"
+      "icon": "icons/j2me.png",
+      "author": "chanlx86"
     },
     {
       "id": "archive-browser",
@@ -54,14 +58,18 @@
               "size": 272014,
               "sha256": "90b8b1b940c0b9cddaac02fec5b4d866b1edae97b54a7f9b06557e56b1ec83dd",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.9.0/source.zip"
             },
             {
               "path": "ipa/archive-browser/0.9.0/archive-browser.ipa",
               "size": 719730,
               "sha256": "4d2a83fd18f5a1ad9bcb4aace693712d09eb037253f719dbe1f4a98e2d3ab3c2",
               "type": "ipa",
-              "label": "IPA 安装包"
+              "label": "IPA 安装包",
+              "manifest": "repo/manifests/archive-browser/0.9.0.plist",
+              "install_url": "itms-services://?action=download-manifest&url=https%3A%2F%2Fchanlx86.github.io%2Frepo%2Fmanifests%2Farchive-browser%2F0.9.0.plist",
+              "download_url": "https://chanlx86.github.io/ipa/archive-browser/0.9.0/archive-browser.ipa"
             }
           ]
         },
@@ -73,14 +81,18 @@
               "size": 246237,
               "sha256": "315a2efba4eaab1231e78913f31eae7b761e88f702a2343f5ec7c4cb1a5a211a",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.8.1/source.zip"
             },
             {
               "path": "ipa/archive-browser/0.8.1/archive-browser.ipa",
               "size": 671454,
               "sha256": "5bccbe2125dbe2440bfaa1daed490b2ec4b9ead625a29e67e5b0c38d7ea6ac36",
               "type": "ipa",
-              "label": "IPA 安装包"
+              "label": "IPA 安装包",
+              "manifest": "repo/manifests/archive-browser/0.8.1.plist",
+              "install_url": "itms-services://?action=download-manifest&url=https%3A%2F%2Fchanlx86.github.io%2Frepo%2Fmanifests%2Farchive-browser%2F0.8.1.plist",
+              "download_url": "https://chanlx86.github.io/ipa/archive-browser/0.8.1/archive-browser.ipa"
             }
           ]
         },
@@ -92,7 +104,8 @@
               "size": 233422,
               "sha256": "8266bda9614e25995297063d9baab2b3ccf9b55a956bdaee14cf44d0cdf9681c",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.8.0/source.zip"
             }
           ]
         },
@@ -104,7 +117,8 @@
               "size": 204712,
               "sha256": "7e601dfc5e5fed84ededf20830c0c939a9a14a67b46d0c9429aa97c2d25e2250",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.7.0/source.zip"
             }
           ]
         },
@@ -116,7 +130,8 @@
               "size": 276690,
               "sha256": "7a88820e22c0c77b25a7bd70f3fe46ae8aebe973622aab450fd39dbc7a5cdad3",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.6.0/source.zip"
             }
           ]
         },
@@ -128,7 +143,8 @@
               "size": 173030,
               "sha256": "e0384aaecab65f24c992ebf14d9c52ba6da665696d8144e919d4f32fa965c47d",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.5.0/source.zip"
             }
           ]
         },
@@ -140,7 +156,8 @@
               "size": 161691,
               "sha256": "20fea6d165cc057a12b88b686b082f161363b4bd34c4acaeeb9b63636c0f9fdf",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.4.0/source.zip"
             }
           ]
         },
@@ -152,7 +169,8 @@
               "size": 143148,
               "sha256": "16b4dfe6c04c9b75c7f87f309f911d7dc898a824547a01ea0c8f5539a5a2abea",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.3.0/source.zip"
             }
           ]
         },
@@ -164,7 +182,8 @@
               "size": 126571,
               "sha256": "fd088ac7105af84ed84055756a94c7b1b26d5c61c6ecd6461c6cf35db353c74a",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.2.0/source.zip"
             }
           ]
         },
@@ -176,12 +195,14 @@
               "size": 115440,
               "sha256": "cc96dd4bc9d698445f3b15f40e4ccb53599601b2fd436bcfae7da15d2c3dc9e0",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/archive-browser/0.1.0/source.zip"
             }
           ]
         }
       ],
-      "icon": "icons/archive-browser.png"
+      "icon": "icons/archive-browser.png",
+      "author": "chanlx86"
     },
     {
       "id": "screen-recorder",
@@ -204,25 +225,30 @@
               "size": 209404,
               "sha256": "e0c717f5cfc7e6e79b24a62c88700de9c72901b38a88c68a46553e6653214cb6",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/screen-recorder/0.6.1/source.zip"
             },
             {
-              "path": "deb/local.legacy.screenrecorder_0.6.1_iphoneos-arm.deb",
-              "size": 230946,
-              "sha256": "7f8ce6dc5f4b57305790dbc567d6b271645be1484e6afb37dcd6957d833742ac",
+              "path": "repo/deb/local.legacy.screenrecorder_0.6.1-1_iphoneos-arm.deb",
+              "size": 231000,
+              "sha256": "65b94dcd24736314376b4dda39bd4a98b9cc234cd53f67f5fb0a2d68c6196152",
               "type": "deb",
               "label": "DEB 安装包",
               "control": {
                 "Package": "local.legacy.screenrecorder",
                 "Name": "录屏大师（iOS 9）",
-                "Version": "0.6.1",
+                "Version": "0.6.1-1",
                 "Architecture": "iphoneos-arm",
                 "Description": "Screen capture and experimental internal audio for jailbroken 32-bit iOS 9. Tested on iPad 3. GPU scaling, internal audio and optional microphone, tabbed library, inline gallery playback and swipe selection.",
-                "Maintainer": "Legacy Screen Recorder Project",
-                "Author": "Legacy Screen Recorder Project",
+                "Maintainer": "chanlx86",
+                "Author": "chanlx86",
                 "Section": "Multimedia",
-                "Depends": "mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 9.0), firmware (<< 10.0)"
-              }
+                "Depends": "mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 9.0), firmware (<< 10.0)",
+                "Homepage": "https://chanlx86.github.io/repo/",
+                "Depiction": "https://chanlx86.github.io/repo/cydia/screen-recorder/",
+                "Icon": "https://chanlx86.github.io/repo/icons/screen-recorder.png"
+              },
+              "download_url": "https://chanlx86.github.io/repo/deb/local.legacy.screenrecorder_0.6.1-1_iphoneos-arm.deb"
             }
           ]
         },
@@ -234,7 +260,8 @@
               "size": 196651,
               "sha256": "c7156cf08dcdea4a3eef4dcaa02812afc827749758ac45b7e2ace3759b4ea8cf",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/screen-recorder/0.6.0/source.zip"
             }
           ]
         },
@@ -246,7 +273,8 @@
               "size": 177100,
               "sha256": "11e0f3f428ad275a0e15e08c7d6e2649c1fbc71a4a0249b2dad27426a30b3827",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/screen-recorder/0.5.0/source.zip"
             }
           ]
         },
@@ -258,7 +286,8 @@
               "size": 116681,
               "sha256": "3bde56e76f5e7598eef65e07bd585f3cf10dca1352b920e5b10d9e96e1c85749",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/screen-recorder/0.4.1/source.zip"
             }
           ]
         },
@@ -270,12 +299,14 @@
               "size": 108147,
               "sha256": "1d5301b2e733ba537f6220dfad1b5bf8fc6e8a71fa36ebe0679896ca836414a2",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/screen-recorder/0.4.0/source.zip"
             }
           ]
         }
       ],
-      "icon": "icons/screen-recorder.png"
+      "icon": "icons/screen-recorder.png",
+      "author": "chanlx86"
     },
     {
       "id": "localsend",
@@ -299,14 +330,18 @@
               "size": 1267631,
               "sha256": "6b2eb93bda6226a9a94c23cfc83fd6c09dab97e86ed706adfe890616d9257635",
               "type": "ipa",
-              "label": "IPA 安装包"
+              "label": "IPA 安装包",
+              "manifest": "repo/manifests/localsend/0.7.0.plist",
+              "install_url": "itms-services://?action=download-manifest&url=https%3A%2F%2Fchanlx86.github.io%2Frepo%2Fmanifests%2Flocalsend%2F0.7.0.plist",
+              "download_url": "https://chanlx86.github.io/ipa/localsend/0.7.0/localsend.ipa"
             },
             {
               "path": "source/localsend/0.7.0/source.zip",
               "size": 6411912,
               "sha256": "532c04236e49e355ed779afbd0d99a36c6157caffacbc0ed646c1e66073b5822",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/localsend/0.7.0/source.zip"
             }
           ]
         },
@@ -318,12 +353,14 @@
               "size": 6362300,
               "sha256": "5e68cb8c6f484eb5f06e6a94d81d7e650187be593495f3e6a8ae0a76bc81849c",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/localsend/0.6.0/source.zip"
             }
           ]
         }
       ],
-      "icon": "icons/localsend.png"
+      "icon": "icons/localsend.png",
+      "author": "chanlx86"
     },
     {
       "id": "troubadour",
@@ -347,14 +384,18 @@
               "size": 6305576,
               "sha256": "5f0da2acd6d207f73ea84211bc25df54c4eefba133be2b29222d8ed3bb6d37bb",
               "type": "ipa",
-              "label": "IPA 安装包"
+              "label": "IPA 安装包",
+              "manifest": "repo/manifests/troubadour/1.6.1.plist",
+              "install_url": "itms-services://?action=download-manifest&url=https%3A%2F%2Fchanlx86.github.io%2Frepo%2Fmanifests%2Ftroubadour%2F1.6.1.plist",
+              "download_url": "https://chanlx86.github.io/ipa/troubadour/1.6.1/troubadour.ipa"
             },
             {
               "path": "source/troubadour/1.6.1/source.zip",
               "size": 5640242,
               "sha256": "1c0dd642a8c03c0caa21ec35a52fe8419278123e67ace8af40e6a049306ba382",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/troubadour/1.6.1/source.zip"
             }
           ]
         },
@@ -366,12 +407,14 @@
               "size": 5634804,
               "sha256": "f841b8b7b55cc0a7510dd32a3d29f2680178e7af9d555750309d4ca2b9c51bab",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/troubadour/1.6/source.zip"
             }
           ]
         }
       ],
-      "icon": "icons/troubadour.png"
+      "icon": "icons/troubadour.png",
+      "author": "chanlx86"
     },
     {
       "id": "wikisource",
@@ -393,14 +436,18 @@
               "size": 848793,
               "sha256": "6aaa5e82afb28b98d91a85f6e71ceacddee5cb4c695162993b818cee19f88e41",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/wikisource/0.2.0/source.zip"
             },
             {
               "path": "ipa/wikisource/0.2.0/wikisource.ipa",
               "size": 932962,
               "sha256": "08a3c2f5b084d8ed8f665e0b0ffd8edc37bc380af5b9897a4ef16de1f57f17c4",
               "type": "ipa",
-              "label": "IPA 安装包"
+              "label": "IPA 安装包",
+              "manifest": "repo/manifests/wikisource/0.2.0.plist",
+              "install_url": "itms-services://?action=download-manifest&url=https%3A%2F%2Fchanlx86.github.io%2Frepo%2Fmanifests%2Fwikisource%2F0.2.0.plist",
+              "download_url": "https://chanlx86.github.io/ipa/wikisource/0.2.0/wikisource.ipa"
             }
           ]
         },
@@ -412,12 +459,14 @@
               "size": 827321,
               "sha256": "0522ee5f00dd408c5c39efa6420b7da373a085d9b78a7719cce472a78a550635",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/wikisource/0.1.0/source.zip"
             }
           ]
         }
       ],
-      "icon": "icons/wikisource.png"
+      "icon": "icons/wikisource.png",
+      "author": "chanlx86"
     },
     {
       "id": "onegram-login-fix",
@@ -435,34 +484,41 @@
           "version": "0.2.0",
           "files": [
             {
-              "path": "deb/local.onegram.loginfix_0.2.0_iphoneos-arm.deb",
-              "size": 8770,
-              "sha256": "226b962ca61fe166a175352191026e06c41b5fabb37e4ce82aacad9edbd1ab68",
+              "path": "repo/deb/local.onegram.loginfix_0.2.0-1_iphoneos-arm.deb",
+              "size": 8836,
+              "sha256": "c551e5e43059797687bb4c727a5f40b4b4d7fe89a458a14663216dede0e22485",
               "type": "deb",
               "label": "DEB 安装包",
               "control": {
                 "Package": "local.onegram.loginfix",
                 "Name": "Onegram Login Fix",
-                "Version": "0.2.0",
+                "Version": "0.2.0-1",
                 "Architecture": "iphoneos-arm",
                 "Section": "Tweaks",
                 "Priority": "optional",
-                "Maintainer": "Legacy iOS fixes",
+                "Maintainer": "chanlx86",
                 "Depends": "mobilesubstrate, firmware (>= 9.0)",
-                "Description": "Offline bundled English login entry and localization timeout and manual variable-length code entry for Onegram 1.4.2."
-              }
+                "Description": "Offline bundled English login entry and localization timeout and manual variable-length code entry for Onegram 1.4.2.",
+                "Author": "chanlx86",
+                "Homepage": "https://chanlx86.github.io/repo/",
+                "Depiction": "https://chanlx86.github.io/repo/cydia/onegram-login-fix/",
+                "Icon": "https://chanlx86.github.io/repo/CydiaIcon.png"
+              },
+              "download_url": "https://chanlx86.github.io/repo/deb/local.onegram.loginfix_0.2.0-1_iphoneos-arm.deb"
             },
             {
               "path": "source/onegram-login-fix/0.2.0/source.zip",
               "size": 10801,
               "sha256": "8cf8985fcdbb0494167fc072ffcc8aaa19e4dc9afc7a12312eb73e4a9a102259",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/onegram-login-fix/0.2.0/source.zip"
             }
           ]
         }
       ],
-      "icon": "icons/package.svg"
+      "icon": "icons/package.svg",
+      "author": "chanlx86"
     },
     {
       "id": "wikipedia-compat",
@@ -481,33 +537,40 @@
           "version": "0.1.0",
           "files": [
             {
-              "path": "deb/local.wikipedia.mobileview.compat_0.1.0_iphoneos-arm.deb",
-              "size": 9752,
-              "sha256": "8ebe0a096995ecabffe729e260d0affeaf0f85b7fe14658a4d4e4d2750484f7b",
+              "path": "repo/deb/local.wikipedia.mobileview.compat_0.1.0-1_iphoneos-arm.deb",
+              "size": 9814,
+              "sha256": "10103fc62f7fd3e398535cdb512f0cce473516cf4f8878ef43d674e26b38b886",
               "type": "deb",
               "label": "DEB 安装包",
               "control": {
                 "Package": "local.wikipedia.mobileview.compat",
                 "Name": "Wikipedia 旧版正文兼容",
-                "Version": "0.1.0",
+                "Version": "0.1.0-1",
                 "Architecture": "iphoneos-arm",
                 "Section": "Tweaks",
-                "Maintainer": "Legacy iOS Tools",
+                "Maintainer": "chanlx86",
                 "Depends": "firmware (>= 9.0), mobilesubstrate",
-                "Description": "Restore read-only article loading in Wikipedia 5.5.1 using the current Parse API."
-              }
+                "Description": "Restore read-only article loading in Wikipedia 5.5.1 using the current Parse API.",
+                "Author": "chanlx86",
+                "Homepage": "https://chanlx86.github.io/repo/",
+                "Depiction": "https://chanlx86.github.io/repo/cydia/wikipedia-compat/",
+                "Icon": "https://chanlx86.github.io/repo/CydiaIcon.png"
+              },
+              "download_url": "https://chanlx86.github.io/repo/deb/local.wikipedia.mobileview.compat_0.1.0-1_iphoneos-arm.deb"
             },
             {
               "path": "source/wikipedia-compat/0.1.0/source.zip",
               "size": 5548,
               "sha256": "d039f76496b59382aad039e1a0f3e0f217622a5454786a01ae5f1788e670cb1e",
               "type": "source",
-              "label": "对应源码 ZIP"
+              "label": "对应源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/wikipedia-compat/0.1.0/source.zip"
             }
           ]
         }
       ],
-      "icon": "icons/package.svg"
+      "icon": "icons/package.svg",
+      "author": "chanlx86"
     },
     {
       "id": "alice-launch-fix",
@@ -526,34 +589,41 @@
           "version": "1.0.0",
           "files": [
             {
-              "path": "deb/local.luoxian.aliceresponseguard_1.0.0_iphoneos-arm.deb",
-              "size": 4430,
-              "sha256": "2966809bf2eb51925cf670f158cc46f7a89151b8f0441ef7e77de4fe6ac3fe85",
+              "path": "repo/deb/local.luoxian.aliceresponseguard_1.0.0-1_iphoneos-arm.deb",
+              "size": 4502,
+              "sha256": "24220a7819793501e1aaea8095451992c5e8ab306caa39b37ddc08b149bd7265",
               "type": "deb",
               "label": "DEB 安装包",
               "control": {
                 "Package": "local.luoxian.aliceresponseguard",
                 "Name": "Alice Run Launch Fix",
-                "Version": "1.0.0",
+                "Version": "1.0.0-1",
                 "Architecture": "iphoneos-arm",
-                "Maintainer": "luoxian",
+                "Maintainer": "chanlx86",
                 "Section": "Tweaks",
                 "Priority": "optional",
                 "Depends": "mobilesubstrate, firmware (>= 6.0), firmware (<< 11.0)",
-                "Description": "Guard a failing network response callback in RushingAliceCN.\n Targets the Chinese Alice Run game (bundle RushingAliceCN), tested with version 2.40 on iPad 3 / iOS 9.3.6.\n ARMv7, rootful jailbreak only. Other devices and iOS versions need testing.\n Cancels a request when MIXCacheHandler throws an Objective-C exception.\n Does not restore unavailable online services. Quit and reopen the game after installing or removing."
-              }
+                "Description": "Guard a failing network response callback in RushingAliceCN.\n Targets the Chinese Alice Run game (bundle RushingAliceCN), tested with version 2.40 on iPad 3 / iOS 9.3.6.\n ARMv7, rootful jailbreak only. Other devices and iOS versions need testing.\n Cancels a request when MIXCacheHandler throws an Objective-C exception.\n Does not restore unavailable online services. Quit and reopen the game after installing or removing.",
+                "Author": "chanlx86",
+                "Homepage": "https://chanlx86.github.io/repo/",
+                "Depiction": "https://chanlx86.github.io/repo/cydia/alice-launch-fix/",
+                "Icon": "https://chanlx86.github.io/repo/CydiaIcon.png"
+              },
+              "download_url": "https://chanlx86.github.io/repo/deb/local.luoxian.aliceresponseguard_1.0.0-1_iphoneos-arm.deb"
             },
             {
               "path": "source/alice-launch-fix/1.0.0/source.zip",
               "size": 7695,
               "sha256": "8c74ea77b5c442f453d27b4a0d96f9b25ca792b8ed4c4a35d6e46a5c0744932a",
               "type": "source",
-              "label": "补丁与源码 ZIP"
+              "label": "补丁与源码 ZIP",
+              "download_url": "https://chanlx86.github.io/source/alice-launch-fix/1.0.0/source.zip"
             }
           ]
         }
       ],
-      "icon": "icons/package.svg"
+      "icon": "icons/package.svg",
+      "author": "chanlx86"
     },
     {
       "id": "locke-display",
@@ -571,27 +641,34 @@
           "version": "1.0.0",
           "files": [
             {
-              "path": "deb/local.lockekingdom.displayfix_1.0.0_iphoneos-arm.deb",
-              "size": 3742,
-              "sha256": "e6b690f93fda728c15b9352aa77f265de34767c31ce603be3c735a48ee3dbec7",
+              "path": "repo/deb/local.lockekingdom.displayfix_1.0.0-1_iphoneos-arm.deb",
+              "size": 3806,
+              "sha256": "f45c6b11f5b1370eaa10311f18e8284aef0dc8c1385042183648586e432efd9a",
               "type": "deb",
               "label": "DEB 安装包",
               "control": {
                 "Package": "local.lockekingdom.displayfix",
                 "Name": "Locke Kingdom Landscape Fix",
-                "Version": "1.0.0",
+                "Version": "1.0.0-1",
                 "Architecture": "iphoneos-arm",
                 "Description": "Restore landscape layout in Locke Kingdom Guide 1.2.\n Adopts the original main view controller as the window root.\n Only affects com.uwingame.roco.ipad.free version 1.2.\n Tested on jailbroken iPad 3 with iOS 9.3.6.\n No app binary, account, save data or network changes.",
-                "Maintainer": "Local Patch",
+                "Maintainer": "chanlx86",
                 "Section": "Tweaks",
                 "Depends": "mobilesubstrate, firmware (>= 6.0)",
-                "Installed-Size": "40"
-              }
+                "Installed-Size": "40",
+                "Author": "chanlx86",
+                "Homepage": "https://chanlx86.github.io/repo/",
+                "Depiction": "https://chanlx86.github.io/repo/cydia/locke-display/",
+                "Icon": "https://chanlx86.github.io/repo/CydiaIcon.png"
+              },
+              "download_url": "https://chanlx86.github.io/repo/deb/local.lockekingdom.displayfix_1.0.0-1_iphoneos-arm.deb"
             }
           ]
         }
       ],
-      "icon": "icons/package.svg"
+      "icon": "icons/package.svg",
+      "author": "chanlx86"
     }
-  ]
+  ],
+  "asset_origin": "https://chanlx86.github.io/"
 }

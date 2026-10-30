@@ -1,23 +1,24 @@
 Origin: chanlx86
 Label: chanlx86
 Suite: stable
-Version: 1.0
+Version: 2.0
 Codename: stable
 Architectures: iphoneos-arm
 Components: main
-Description: Legacy iOS applications and compatibility patches
+Description: Applications and fixes maintained by chanlx86
+Icon: https://chanlx86.github.io/repo/CydiaIcon.png
 MD5Sum:
- 5c202b58705368ca9258b06c1043b82c 4082 Packages
- d88a1e765a4387d73df14797ddd49ed8 1832 Packages.gz
- c0db9620c6f6195818e4dc03c30bab32 1965 Packages.bz2
- fdbe9017379a9f1382067e30147819ba 1840 Packages.xz
+ ca2dfb82237da55ca9381db1b8f3e8e1 4403 Packages
+ b6f4375034de794c46cf4c3ac7337371 1824 Packages.gz
+ d0f5f14559f2ed19e6c9ccf481acf6d0 1968 Packages.bz2
+ 935afba21901f7ed4054b5e0a8ec3847 1820 Packages.xz
 SHA1:
- 3bffe5371d2a575cf93d4b128e6e3078460c516f 4082 Packages
- 469550c246905e33d4753f991f06c133f921d8c1 1832 Packages.gz
- 186458c7adbde412903f958084947f039ea85fea 1965 Packages.bz2
- 38d8b17b6fbde7741b40eb88c728756d8217cfad 1840 Packages.xz
+ 7df1921c3f65815168089beeb5664d1429054fb5 4403 Packages
+ 5398efe7ea7cadf86a98331b6078772023bb50a3 1824 Packages.gz
+ 91603716b1660eaec851450d3e4deb7334c96d4c 1968 Packages.bz2
+ 0ecd389d2b61ddb6f7c692de4fd92911c0b77839 1820 Packages.xz
 SHA256:
- 2f07780864d06c2647dfc1b0eba092b95eb85ec84a62812505f79b90008f6b77 4082 Packages
- 27057c53ddae44bbf7b31ab4201d3517602d1015c3373838c99b5f7e88425e61 1832 Packages.gz
- 2d9a5c7f9d1dc135467243a051a37e39874640572dd31894adde5ecb3ce145d4 1965 Packages.bz2
- dbbbbb950c80b3eb68317366cb6efcc9a27cd6a119e0f8752e4e01948015eac4 1840 Packages.xz
+ 28fa84e1d5dcf5739695ccfd3f789f109f049d633d6edd2d3a116755fe1a4580 4403 Packages
+ 51926c3a5069721cc63318fc77b093e14b5793ca86aeed6d176f2289078950bd 1824 Packages.gz
+ 60f02635b72ffaf5bd1e03cba2abc4585729ca5a2cd5ede7da986a80ca77be63 1968 Packages.bz2
+ 53efdf264709b57bc87adde2b2642fb79e7fd5427315aa6bb14bd2975a6825c6 1820 Packages.xz

@@ -18,7 +18,7 @@ for record in raw.split(b'\0'):
 paths = set(['.gitignore', '.nojekyll', 'README.md', 'LICENSE', '404.html',
              'CydiaIcon.png', 'index.html', 'style.css', 'site.js', 'catalog.json',
              'Packages', 'Packages.gz', 'Packages.bz2', 'Packages.xz', 'Release', 'SHA256SUMS'])
-for folder in ['apps', 'archive', 'help', 'icons', 'docs', 'tools']:
+for folder in ['repo', 'apps', 'archive', 'help', 'icons', 'docs', 'tools']:
     paths.update(str(p.relative_to(root)) for p in (root/folder).rglob('*')
                  if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc' and p.name != '.DS_Store')
 catalog = json.loads((root/'catalog.json').read_text())

@@ -334,13 +334,9 @@ def main():
     parser.add_argument('--import-archive', type=Path)
     args = parser.parse_args()
     if args.import_archive:
-        apps = import_archive(args.import_archive.expanduser().resolve())
-    else:
-        apps = json.loads((ROOT/'catalog.json').read_text())['apps']
-    build_site(apps)
-    build_apt(apps)
-    check(apps)
-    write('.nojekyll', '')
+        import_archive(args.import_archive.expanduser().resolve())
+    from site_v2 import main as build_current_site
+    return build_current_site()
 
 if __name__ == '__main__':
     main()

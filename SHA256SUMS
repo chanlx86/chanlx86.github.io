@@ -12,7 +12,7 @@ e0384aaecab65f24c992ebf14d9c52ba6da665696d8144e919d4f32fa965c47d  source/archive
 fd088ac7105af84ed84055756a94c7b1b26d5c61c6ecd6461c6cf35db353c74a  source/archive-browser/0.2.0/source.zip
 cc96dd4bc9d698445f3b15f40e4ccb53599601b2fd436bcfae7da15d2c3dc9e0  source/archive-browser/0.1.0/source.zip
 e0c717f5cfc7e6e79b24a62c88700de9c72901b38a88c68a46553e6653214cb6  source/screen-recorder/0.6.1/source.zip
-7f8ce6dc5f4b57305790dbc567d6b271645be1484e6afb37dcd6957d833742ac  deb/local.legacy.screenrecorder_0.6.1_iphoneos-arm.deb
+65b94dcd24736314376b4dda39bd4a98b9cc234cd53f67f5fb0a2d68c6196152  repo/deb/local.legacy.screenrecorder_0.6.1-1_iphoneos-arm.deb
 c7156cf08dcdea4a3eef4dcaa02812afc827749758ac45b7e2ace3759b4ea8cf  source/screen-recorder/0.6.0/source.zip
 11e0f3f428ad275a0e15e08c7d6e2649c1fbc71a4a0249b2dad27426a30b3827  source/screen-recorder/0.5.0/source.zip
 3bde56e76f5e7598eef65e07bd585f3cf10dca1352b920e5b10d9e96e1c85749  source/screen-recorder/0.4.1/source.zip
@@ -26,10 +26,10 @@ f841b8b7b55cc0a7510dd32a3d29f2680178e7af9d555750309d4ca2b9c51bab  source/troubad
 6aaa5e82afb28b98d91a85f6e71ceacddee5cb4c695162993b818cee19f88e41  source/wikisource/0.2.0/source.zip
 08a3c2f5b084d8ed8f665e0b0ffd8edc37bc380af5b9897a4ef16de1f57f17c4  ipa/wikisource/0.2.0/wikisource.ipa
 0522ee5f00dd408c5c39efa6420b7da373a085d9b78a7719cce472a78a550635  source/wikisource/0.1.0/source.zip
-226b962ca61fe166a175352191026e06c41b5fabb37e4ce82aacad9edbd1ab68  deb/local.onegram.loginfix_0.2.0_iphoneos-arm.deb
+c551e5e43059797687bb4c727a5f40b4b4d7fe89a458a14663216dede0e22485  repo/deb/local.onegram.loginfix_0.2.0-1_iphoneos-arm.deb
 8cf8985fcdbb0494167fc072ffcc8aaa19e4dc9afc7a12312eb73e4a9a102259  source/onegram-login-fix/0.2.0/source.zip
-8ebe0a096995ecabffe729e260d0affeaf0f85b7fe14658a4d4e4d2750484f7b  deb/local.wikipedia.mobileview.compat_0.1.0_iphoneos-arm.deb
+10103fc62f7fd3e398535cdb512f0cce473516cf4f8878ef43d674e26b38b886  repo/deb/local.wikipedia.mobileview.compat_0.1.0-1_iphoneos-arm.deb
 d039f76496b59382aad039e1a0f3e0f217622a5454786a01ae5f1788e670cb1e  source/wikipedia-compat/0.1.0/source.zip
-2966809bf2eb51925cf670f158cc46f7a89151b8f0441ef7e77de4fe6ac3fe85  deb/local.luoxian.aliceresponseguard_1.0.0_iphoneos-arm.deb
+24220a7819793501e1aaea8095451992c5e8ab306caa39b37ddc08b149bd7265  repo/deb/local.luoxian.aliceresponseguard_1.0.0-1_iphoneos-arm.deb
 8c74ea77b5c442f453d27b4a0d96f9b25ca792b8ed4c4a35d6e46a5c0744932a  source/alice-launch-fix/1.0.0/source.zip
-e6b690f93fda728c15b9352aa77f265de34767c31ce603be3c735a48ee3dbec7  deb/local.lockekingdom.displayfix_1.0.0_iphoneos-arm.deb
+f45c6b11f5b1370eaa10311f18e8284aef0dc8c1385042183648586e432efd9a  repo/deb/local.lockekingdom.displayfix_1.0.0-1_iphoneos-arm.deb
