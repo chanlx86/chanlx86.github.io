@@ -1,0 +1,23 @@
+Origin: chanlx86
+Label: chanlx86
+Suite: stable
+Version: 1.0
+Codename: stable
+Architectures: iphoneos-arm
+Components: main
+Description: Legacy iOS applications and compatibility patches
+MD5Sum:
+ 7c034be3acbab7ca3ba4064176e6ce41 8209 Packages
+ a1db5174075052a94797acbb3ddf77ca 3142 Packages.gz
+ bd99cc521b20d7939154b50778c1e2ae 3188 Packages.bz2
+ 3de0113b326d0620a1657c7b52287c7c 3072 Packages.xz
+SHA1:
+ cdf55f6aad593ca12f22fe1cc382c1ee70bb0074 8209 Packages
+ 5ec9595dfa0b38dfddbc2446786bf83afccd5ee5 3142 Packages.gz
+ 6693993ddc8ded16983ea3fbab18880a24c48e5a 3188 Packages.bz2
+ f165f307ac56dc21e7af8e9002acdc172f19d292 3072 Packages.xz
+SHA256:
+ 2f28702441ad4ac94c9ff8539afebd83d834138d6ae3b2f996b28bfaa42d0d65 8209 Packages
+ 65333bb999b8c74d65009ee2774c131cb55ed4d02b9c39065e07b658fbfe97ba 3142 Packages.gz
+ 970d3fec1da12264248be1515dcdbf1d9a4b061973ae02049f396d9cc775d81c 3188 Packages.bz2
+ dc6db7d5db2c46ff0502062cc5281cfedee1b63a862ee21dc8f2e5eb16fab357 3072 Packages.xz

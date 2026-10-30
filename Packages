@@ -1,0 +1,189 @@
+Package: local.archive.browser
+Name: 存档浏览器
+Version: 0.9.0
+Architecture: iphoneos-arm
+Section: Utilities
+Priority: optional
+Maintainer: ArchiveBrowser
+Depends: firmware (>= 9.0)
+Description: Native public Internet Archive search, files, downloads and media player for iOS 9.
+Filename: debs/local.archive.browser_0.9.0_iphoneos-arm.deb
+Size: 719172
+MD5sum: a487bee9d9cb1cfd4e32f768b6d78ad2
+SHA1: ded52660166788cef15dac4bfe0aaf7e2afb6250
+SHA256: 23bd593e3cf270003066d128713748d5569e135cd38bba0b9d0cbf9141a440d8
+Depiction: https://chanlx86.github.io/apps/archive-browser/
+Icon: https://chanlx86.github.io/icons/archive-browser.png
+
+Package: local.legacy.screenrecorder
+Name: 录屏大师（iOS 9）
+Version: 0.6.1
+Architecture: iphoneos-arm
+Description: Screen capture and experimental internal audio for jailbroken 32-bit iOS 9. Tested on iPad 3. GPU scaling, internal audio and optional microphone, tabbed library, inline gallery playback and swipe selection.
+Maintainer: Legacy Screen Recorder Project
+Author: Legacy Screen Recorder Project
+Section: Multimedia
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 9.0), firmware (<< 10.0)
+Filename: debs/local.legacy.screenrecorder_0.6.1_iphoneos-arm.deb
+Size: 230946
+MD5sum: 46e6c4543f980414578abf5158f882ab
+SHA1: 11d77089f7bb54cdcb2569d01ab81d387dfe3dfb
+SHA256: 7f8ce6dc5f4b57305790dbc567d6b271645be1484e6afb37dcd6957d833742ac
+Depiction: https://chanlx86.github.io/apps/screen-recorder/
+Icon: https://chanlx86.github.io/icons/screen-recorder.png
+
+Package: local.wikisource.reader
+Name: 维基文库
+Version: 0.2.0
+Architecture: iphoneos-arm
+Section: Utilities
+Priority: optional
+Maintainer: WikisourceReader
+Depends: firmware (>= 9.0)
+Description: Unofficial Chinese Wikisource reader, search, bookmarks and reading progress for iOS 9.
+Filename: debs/local.wikisource.reader_0.2.0_iphoneos-arm.deb
+Size: 922390
+MD5sum: 05aa6a2e8cbc7274d2d5239dd1418f4c
+SHA1: b36b07367e6ae07953174e00fa905afb28689eec
+SHA256: 4c72fe8a1ef2652fedc0dff6ea8ab00c5e5cf6cd854d7779eedc54f057f99c26
+Depiction: https://chanlx86.github.io/apps/wikisource/
+Icon: https://chanlx86.github.io/icons/wikisource.png
+
+Package: local.onegram.loginfix
+Name: Onegram Login Fix
+Version: 0.2.0
+Architecture: iphoneos-arm
+Section: Tweaks
+Priority: optional
+Maintainer: Legacy iOS fixes
+Depends: mobilesubstrate, firmware (>= 9.0)
+Description: Offline bundled English login entry and localization timeout and manual variable-length code entry for Onegram 1.4.2.
+Filename: debs/local.onegram.loginfix_0.2.0_iphoneos-arm.deb
+Size: 8770
+MD5sum: eeb6cc34cff501f1c8d3c54604525341
+SHA1: c3dc9ee17121dc605ee87b1526aa9778f461f7c6
+SHA256: 226b962ca61fe166a175352191026e06c41b5fabb37e4ce82aacad9edbd1ab68
+Depiction: https://chanlx86.github.io/apps/onegram-login-fix/
+Icon: https://chanlx86.github.io/CydiaIcon.png
+
+Package: local.wikipedia.mobileview.compat
+Name: Wikipedia 旧版正文兼容
+Version: 0.1.0
+Architecture: iphoneos-arm
+Section: Tweaks
+Maintainer: Legacy iOS Tools
+Depends: firmware (>= 9.0), mobilesubstrate
+Description: Restore read-only article loading in Wikipedia 5.5.1 using the current Parse API.
+Filename: debs/local.wikipedia.mobileview.compat_0.1.0_iphoneos-arm.deb
+Size: 9752
+MD5sum: 6e8b8abcbaff95e5c905b1c2ff8f82e6
+SHA1: 92e13288c7badb8e7a1d50b7c8e1e7166262f57a
+SHA256: 8ebe0a096995ecabffe729e260d0affeaf0f85b7fe14658a4d4e4d2750484f7b
+Depiction: https://chanlx86.github.io/apps/wikipedia-compat/
+Icon: https://chanlx86.github.io/CydiaIcon.png
+
+Package: local.luoxian.aliceresponseguard
+Name: Alice Run Launch Fix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: luoxian
+Section: Tweaks
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 11.0)
+Description: Guard a failing network response callback in RushingAliceCN.
+ Targets the Chinese Alice Run game (bundle RushingAliceCN), tested with version 2.40 on iPad 3 / iOS 9.3.6.
+ ARMv7, rootful jailbreak only. Other devices and iOS versions need testing.
+ Cancels a request when MIXCacheHandler throws an Objective-C exception.
+ Does not restore unavailable online services. Quit and reopen the game after installing or removing.
+Filename: debs/local.luoxian.aliceresponseguard_1.0.0_iphoneos-arm.deb
+Size: 4430
+MD5sum: 78b127fc17480c9c740f981c3d0e416b
+SHA1: fc957d4d80d84ed5e73851bef45f6ca43ae149e9
+SHA256: 2966809bf2eb51925cf670f158cc46f7a89151b8f0441ef7e77de4fe6ac3fe85
+Depiction: https://chanlx86.github.io/apps/alice-launch-fix/
+Icon: https://chanlx86.github.io/CydiaIcon.png
+
+Package: local.lockekingdom.displayfix
+Name: Locke Kingdom Landscape Fix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Restore landscape layout in Locke Kingdom Guide 1.2.
+ Adopts the original main view controller as the window root.
+ Only affects com.uwingame.roco.ipad.free version 1.2.
+ Tested on jailbroken iPad 3 with iOS 9.3.6.
+ No app binary, account, save data or network changes.
+Maintainer: Local Patch
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0)
+Installed-Size: 40
+Filename: debs/local.lockekingdom.displayfix_1.0.0_iphoneos-arm.deb
+Size: 3742
+MD5sum: 3bf18b8a97ebe460adbd5dc07e0d2708
+SHA1: db4cfb8c36fbb0eeaf81522f5332fb895ad92123
+SHA256: e6b690f93fda728c15b9352aa77f265de34767c31ce603be3c735a48ee3dbec7
+Depiction: https://chanlx86.github.io/apps/locke-display/
+Icon: https://chanlx86.github.io/CydiaIcon.png
+
+Package: local.lockekingdom.typefix
+Name: Locke Kingdom Type Chart Fix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Correct type multipliers using the app bundled chart images.
+ Repairs mismatched primary type IDs in the battle simulator.
+ Only affects com.uwingame.roco.ipad.free version 1.2.
+ Tested on jailbroken iPad 3 with iOS 9.3.6.
+ Changes battle type multipliers only; preserves the app binary and saves.
+Maintainer: Local Patch
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0)
+Installed-Size: 52
+Filename: debs/local.lockekingdom.typefix_1.0.0_iphoneos-arm.deb
+Size: 4646
+MD5sum: b9daca5e860d75c084635a8cf6ca15b9
+SHA1: d414c7c9b4afaffa6cb3803d763b876718cf5115
+SHA256: fc1d98119352a4404025f1ed8953a680aecc5dceb4c941dea64bd5beca1e4bf2
+Depiction: https://chanlx86.github.io/apps/locke-type/
+Icon: https://chanlx86.github.io/CydiaIcon.png
+
+Package: local.lockekingdom.statfix
+Name: Locke Kingdom Stats and Battle Fix
+Version: 2.0.1
+Architecture: iphoneos-arm
+Description: Audited species data, level stats, speed order and ordinary webgame damage.
+ Uses IV31, EV0 and neutral nature. Uses the user-selected 4399 legacy species table.
+ Matches 86 species and retains original data for unlisted IDs. Corrects 23 species and uses level, power, attack/defense and type damage.
+ Original simplified special/change skill effects remain.
+ Only affects com.uwingame.roco.ipad.free version 1.2.
+ ARMv7 executable UUID checked before hooking.
+Maintainer: Local Patch
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0)
+Installed-Size: 325
+Filename: debs/local.lockekingdom.statfix_2.0.1_iphoneos-arm.deb
+Size: 79622
+MD5sum: aa4b55a7bb00227287f656bf036b8446
+SHA1: 640d40edf17efe39ef0b115589afa5ae8f7c796f
+SHA256: ec5bf5dc9adccb60fdc869b514dcd7111680726dcfd5f0236ebeb67d6ed81de3
+Depiction: https://chanlx86.github.io/apps/locke-stats/
+Icon: https://chanlx86.github.io/CydiaIcon.png
+
+Package: local.lockekingdom.turnbattle
+Name: Locke Kingdom Turn Battle
+Version: 1.1.0
+Architecture: iphoneos-arm
+Description: Interactive ten-second turns, move selection, HP bars and battle log.
+ Replaces win-rate playback for Locke Kingdom Guide 1.2.
+ Adds PvE / local PvP and 243 explicit effect rules for control, residual HP and stages.
+ Some complex effects remain partial and are marked in skill details.
+Maintainer: Local Patch
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0), local.lockekingdom.statfix (>= 2.0.1), local.lockekingdom.displayfix (>= 1.0.0)
+Installed-Size: 240
+Filename: debs/local.lockekingdom.turnbattle_1.1.0_iphoneos-arm.deb
+Size: 43616
+MD5sum: 91605645e2623985a98c6afc00817dd2
+SHA1: de3d46bf27aff952dc51cdd1bf166a408324a433
+SHA256: 013040902f133125f9abb3a3b9491b0cfe0c7c986ca3e9e2971aa33c5770328e
+Depiction: https://chanlx86.github.io/apps/locke-battle/
+Icon: https://chanlx86.github.io/CydiaIcon.png
+
