@@ -10,6 +10,11 @@ xcuserdata/
 
 ## App packaging
 *.ipa
+# This repository intentionally distributes published IPA releases.
+!ipa/**/*.ipa
+.DS_Store
+__pycache__/
+*.pyc
 *.dSYM.zip
 *.dSYM
 

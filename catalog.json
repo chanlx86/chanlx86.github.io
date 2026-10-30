@@ -25,66 +25,6 @@
               "label": "IPA 安装包"
             }
           ]
-        },
-        {
-          "version": "build64",
-          "files": [
-            {
-              "path": "ipa/j2me/build64/j2me.ipa",
-              "size": 8428132,
-              "sha256": "d2dd76e52dc6fc5609cf9c2c08a935ef6f8ad9bb50391e0431bb85d7316415a1",
-              "type": "ipa",
-              "label": "IPA 安装包"
-            }
-          ]
-        },
-        {
-          "version": "build63",
-          "files": [
-            {
-              "path": "ipa/j2me/build63/j2me.ipa",
-              "size": 8422503,
-              "sha256": "91494f7aa270bb3eec0cc23d5e2a3fecec6a4ae5dfb7968769e2bb8c703cf82b",
-              "type": "ipa",
-              "label": "IPA 安装包"
-            }
-          ]
-        },
-        {
-          "version": "build62",
-          "files": [
-            {
-              "path": "ipa/j2me/build62/j2me.ipa",
-              "size": 8421287,
-              "sha256": "31797667d6c78f0d2db029a186e39d81d941a08aa870f4981d90d49497ddd6cc",
-              "type": "ipa",
-              "label": "IPA 安装包"
-            }
-          ]
-        },
-        {
-          "version": "build61",
-          "files": [
-            {
-              "path": "ipa/j2me/build61/j2me.ipa",
-              "size": 8423782,
-              "sha256": "cc944ac2b090d42be2ecbaa54a63595910e47679ad6b5a792f1b723d32efdbe9",
-              "type": "ipa",
-              "label": "IPA 安装包"
-            }
-          ]
-        },
-        {
-          "version": "build60",
-          "files": [
-            {
-              "path": "ipa/j2me/build60/j2me.ipa",
-              "size": 8423627,
-              "sha256": "0c14c7ce03fac092fc72ad707cec5c5c423918ae662c2b0d61cfa649430d830f",
-              "type": "ipa",
-              "label": "IPA 安装包"
-            }
-          ]
         }
       ],
       "icon": "icons/j2me.png"
@@ -110,24 +50,6 @@
           "version": "0.9.0",
           "files": [
             {
-              "path": "debs/local.archive.browser_0.9.0_iphoneos-arm.deb",
-              "size": 719172,
-              "sha256": "23bd593e3cf270003066d128713748d5569e135cd38bba0b9d0cbf9141a440d8",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.9.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
-            {
               "path": "source/archive-browser/0.9.0/source.zip",
               "size": 272014,
               "sha256": "90b8b1b940c0b9cddaac02fec5b4d866b1edae97b54a7f9b06557e56b1ec83dd",
@@ -146,24 +68,6 @@
         {
           "version": "0.8.1",
           "files": [
-            {
-              "path": "debs/local.archive.browser_0.8.1_iphoneos-arm.deb",
-              "size": 671664,
-              "sha256": "c28a3c1e17395177c45f7bc6afc178c47c2efefdc16d8498a1fc6b864ebd67a4",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.8.1",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
             {
               "path": "source/archive-browser/0.8.1/source.zip",
               "size": 246237,
@@ -184,36 +88,11 @@
           "version": "0.8.0",
           "files": [
             {
-              "path": "debs/local.archive.browser_0.8.0_iphoneos-arm.deb",
-              "size": 641276,
-              "sha256": "9207e2b54febe52539ced46e2ba357eebe1ff0bbf32d217be4e3cdefa3aa8511",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.8.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
-            {
               "path": "source/archive-browser/0.8.0/source.zip",
               "size": 233422,
               "sha256": "8266bda9614e25995297063d9baab2b3ccf9b55a956bdaee14cf44d0cdf9681c",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "ipa/archive-browser/0.8.0/archive-browser.ipa",
-              "size": 640780,
-              "sha256": "019070cb4697eb76cd838a08c1a1e3e2c4e8333de778cbf4d5197b913bdd7dd0",
-              "type": "ipa",
-              "label": "IPA 安装包"
             }
           ]
         },
@@ -221,36 +100,11 @@
           "version": "0.7.0",
           "files": [
             {
-              "path": "debs/local.archive.browser_0.7.0_iphoneos-arm.deb",
-              "size": 565642,
-              "sha256": "078feb4495cdf2201d563597de4e46c8bbab67380e596407b5e144ac1a9942ff",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.7.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
-            {
               "path": "source/archive-browser/0.7.0/source.zip",
               "size": 204712,
               "sha256": "7e601dfc5e5fed84ededf20830c0c939a9a14a67b46d0c9429aa97c2d25e2250",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "ipa/archive-browser/0.7.0/archive-browser.ipa",
-              "size": 565568,
-              "sha256": "84ac50cb87848f7345ac2c19dadce9689982056aaeb9402cb63f206e2f98bc15",
-              "type": "ipa",
-              "label": "IPA 安装包"
             }
           ]
         },
@@ -258,36 +112,11 @@
           "version": "0.6.0",
           "files": [
             {
-              "path": "debs/local.archive.browser_0.6.0_iphoneos-arm.deb",
-              "size": 614224,
-              "sha256": "6e8c50656a12a39646f586a5bd88cdd352b6cae2b9717ddeb3b531088ac6cf82",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.6.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
-            {
               "path": "source/archive-browser/0.6.0/source.zip",
               "size": 276690,
               "sha256": "7a88820e22c0c77b25a7bd70f3fe46ae8aebe973622aab450fd39dbc7a5cdad3",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "ipa/archive-browser/0.6.0/archive-browser.ipa",
-              "size": 613724,
-              "sha256": "3bef332306fe8bb218dd100f2f5fe1f4d9694e698798c68d88abbf5445d82da5",
-              "type": "ipa",
-              "label": "IPA 安装包"
             }
           ]
         },
@@ -295,36 +124,11 @@
           "version": "0.5.0",
           "files": [
             {
-              "path": "debs/local.archive.browser_0.5.0_iphoneos-arm.deb",
-              "size": 443774,
-              "sha256": "ad23aabf2699b5507145b0ff525821a50288b1ad3f5f456d2222c3b52c9e3e8e",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.5.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
-            {
               "path": "source/archive-browser/0.5.0/source.zip",
               "size": 173030,
               "sha256": "e0384aaecab65f24c992ebf14d9c52ba6da665696d8144e919d4f32fa965c47d",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "ipa/archive-browser/0.5.0/archive-browser.ipa",
-              "size": 442969,
-              "sha256": "a497d810d1c36847536355c9a572f155b8197836490de117976c4714009a9e81",
-              "type": "ipa",
-              "label": "IPA 安装包"
             }
           ]
         },
@@ -332,36 +136,11 @@
           "version": "0.4.0",
           "files": [
             {
-              "path": "debs/local.archive.browser_0.4.0_iphoneos-arm.deb",
-              "size": 387038,
-              "sha256": "24ca27a46225053d2826fc4a0386976011f05876c279328366dcfa2b97afa196",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.4.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
-            {
               "path": "source/archive-browser/0.4.0/source.zip",
               "size": 161691,
               "sha256": "20fea6d165cc057a12b88b686b082f161363b4bd34c4acaeeb9b63636c0f9fdf",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "ipa/archive-browser/0.4.0/archive-browser.ipa",
-              "size": 385633,
-              "sha256": "c504ba69c6201e95192465578b08b5f168410346bc2ec1c0eb30bf84fbc02fe0",
-              "type": "ipa",
-              "label": "IPA 安装包"
             }
           ]
         },
@@ -369,36 +148,11 @@
           "version": "0.3.0",
           "files": [
             {
-              "path": "debs/local.archive.browser_0.3.0_iphoneos-arm.deb",
-              "size": 302396,
-              "sha256": "d5bdcc6b0abf94cc74ca20773193690fb0980f367ef5c3fbbc1f64bc03f3eac4",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.3.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
-            {
               "path": "source/archive-browser/0.3.0/source.zip",
               "size": 143148,
               "sha256": "16b4dfe6c04c9b75c7f87f309f911d7dc898a824547a01ea0c8f5539a5a2abea",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "ipa/archive-browser/0.3.0/archive-browser.ipa",
-              "size": 301132,
-              "sha256": "35a4a3b444faa6278ce1056d5b2286db2f6e286b6221e1cb4302df267f675494",
-              "type": "ipa",
-              "label": "IPA 安装包"
             }
           ]
         },
@@ -406,36 +160,11 @@
           "version": "0.2.0",
           "files": [
             {
-              "path": "debs/local.archive.browser_0.2.0_iphoneos-arm.deb",
-              "size": 242120,
-              "sha256": "72642697e0dc1b77023c0a7117641697de6df5e8c7e391400089b9aec4af527c",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.2.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
-            {
               "path": "source/archive-browser/0.2.0/source.zip",
               "size": 126571,
               "sha256": "fd088ac7105af84ed84055756a94c7b1b26d5c61c6ecd6461c6cf35db353c74a",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "ipa/archive-browser/0.2.0/archive-browser.ipa",
-              "size": 241331,
-              "sha256": "8e4ffa73c15f641c7b66bd76f8dd4e0923d97da0b0c769c1f13c5318c001165b",
-              "type": "ipa",
-              "label": "IPA 安装包"
             }
           ]
         },
@@ -443,36 +172,11 @@
           "version": "0.1.0",
           "files": [
             {
-              "path": "debs/local.archive.browser_0.1.0_iphoneos-arm.deb",
-              "size": 199336,
-              "sha256": "1a1fb5aca087ce50271063a8b87b69d24296750c1e7d7ebad21b78971b2b898e",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.archive.browser",
-                "Name": "存档浏览器",
-                "Version": "0.1.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "ArchiveBrowser",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Native public Internet Archive search, files, downloads and media player for iOS 9."
-              }
-            },
-            {
               "path": "source/archive-browser/0.1.0/source.zip",
               "size": 115440,
               "sha256": "cc96dd4bc9d698445f3b15f40e4ccb53599601b2fd436bcfae7da15d2c3dc9e0",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "ipa/archive-browser/0.1.0/archive-browser.ipa",
-              "size": 198022,
-              "sha256": "2af5887f570164d73205d4f4b9a87da4b97e605d529b090c114608e84358e1aa",
-              "type": "ipa",
-              "label": "IPA 安装包"
             }
           ]
         }
@@ -503,7 +207,7 @@
               "label": "对应源码 ZIP"
             },
             {
-              "path": "debs/local.legacy.screenrecorder_0.6.1_iphoneos-arm.deb",
+              "path": "deb/local.legacy.screenrecorder_0.6.1_iphoneos-arm.deb",
               "size": 230946,
               "sha256": "7f8ce6dc5f4b57305790dbc567d6b271645be1484e6afb37dcd6957d833742ac",
               "type": "deb",
@@ -531,24 +235,6 @@
               "sha256": "c7156cf08dcdea4a3eef4dcaa02812afc827749758ac45b7e2ace3759b4ea8cf",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "debs/local.legacy.screenrecorder_0.6.0_iphoneos-arm.deb",
-              "size": 222378,
-              "sha256": "396782c62a5f42abce44f756a48aa02a9cb6b5db3ad0deb9ec60b942a0c12974",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.legacy.screenrecorder",
-                "Name": "录屏大师（iOS 9）",
-                "Version": "0.6.0",
-                "Architecture": "iphoneos-arm",
-                "Description": "Screen capture and experimental internal audio for jailbroken 32-bit iOS 9. Tested on iPad 3. GPU scaling, internal audio and optional microphone, tabbed library, inline gallery playback and swipe selection.",
-                "Maintainer": "Legacy Screen Recorder Project",
-                "Author": "Legacy Screen Recorder Project",
-                "Section": "Multimedia",
-                "Depends": "mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 9.0), firmware (<< 10.0)"
-              }
             }
           ]
         },
@@ -561,24 +247,6 @@
               "sha256": "11e0f3f428ad275a0e15e08c7d6e2649c1fbc71a4a0249b2dad27426a30b3827",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "debs/local.legacy.screenrecorder_0.5.0_iphoneos-arm.deb",
-              "size": 213604,
-              "sha256": "c52f1ccceae4d3e8a776fdeb7cd181977789fa30387674450641a01c49e3e566",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.legacy.screenrecorder",
-                "Name": "录屏大师（iOS 9）",
-                "Version": "0.5.0",
-                "Architecture": "iphoneos-arm",
-                "Description": "Screen capture and experimental internal audio for jailbroken 32-bit iOS 9. Tested on iPad 3. GPU scaling, internal audio and optional microphone, tabbed library, inline gallery playback and swipe selection.",
-                "Maintainer": "Legacy Screen Recorder Project",
-                "Author": "Legacy Screen Recorder Project",
-                "Section": "Multimedia",
-                "Depends": "mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 9.0), firmware (<< 10.0)"
-              }
             }
           ]
         },
@@ -591,24 +259,6 @@
               "sha256": "3bde56e76f5e7598eef65e07bd585f3cf10dca1352b920e5b10d9e96e1c85749",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "debs/local.legacy.screenrecorder_0.4.1_iphoneos-arm.deb",
-              "size": 147568,
-              "sha256": "79d73da0f552cd992762e1dbba927a8a12824b1881a6aff99583094a8e6ef36c",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.legacy.screenrecorder",
-                "Name": "录屏大师（iOS 9）",
-                "Version": "0.4.1",
-                "Architecture": "iphoneos-arm",
-                "Description": "Screen capture and experimental internal audio for jailbroken 32-bit iOS 9. Tested on iPad 3. GPU scaling, internal audio and optional microphone, thumbnail gallery and recording preview.",
-                "Maintainer": "Legacy Screen Recorder Project",
-                "Author": "Legacy Screen Recorder Project",
-                "Section": "Multimedia",
-                "Depends": "mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 9.0), firmware (<< 10.0)"
-              }
             }
           ]
         },
@@ -621,24 +271,6 @@
               "sha256": "1d5301b2e733ba537f6220dfad1b5bf8fc6e8a71fa36ebe0679896ca836414a2",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "debs/local.legacy.screenrecorder_0.4.0_iphoneos-arm.deb",
-              "size": 135898,
-              "sha256": "78b3ac939ede529d58acc83f3b72571e6164343841f34739ea117f4f09b012d1",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.legacy.screenrecorder",
-                "Name": "旧版录屏（iOS 9 实验版）",
-                "Version": "0.4.0",
-                "Architecture": "iphoneos-arm",
-                "Description": "Screen capture and experimental internal audio for jailbroken 32-bit iOS 9. Tested on iPad 3. GPU scaling, internal audio and optional microphone, thumbnail gallery and recording preview.",
-                "Maintainer": "Legacy Screen Recorder Project",
-                "Author": "Legacy Screen Recorder Project",
-                "Section": "Multimedia",
-                "Depends": "mobilesubstrate, com.rpetrich.rocketbootstrap, firmware (>= 9.0), firmware (<< 10.0)"
-              }
             }
           ]
         }
@@ -681,13 +313,6 @@
         {
           "version": "0.6.0",
           "files": [
-            {
-              "path": "ipa/localsend/0.6.0/localsend.ipa",
-              "size": 1223076,
-              "sha256": "7625ddee36895fea8d7293efdc0e33fe7ce6a2408b2b05247afc812267192a87",
-              "type": "ipa",
-              "label": "IPA 安装包"
-            },
             {
               "path": "source/localsend/0.6.0/source.zip",
               "size": 6362300,
@@ -737,13 +362,6 @@
           "version": "1.6",
           "files": [
             {
-              "path": "ipa/troubadour/1.6/troubadour.ipa",
-              "size": 6305479,
-              "sha256": "7c1ff730c5a9bb9c336d77030864cbcb95db8140d7970ff9bef4b7689b635473",
-              "type": "ipa",
-              "label": "IPA 安装包"
-            },
-            {
               "path": "source/troubadour/1.6/source.zip",
               "size": 5634804,
               "sha256": "f841b8b7b55cc0a7510dd32a3d29f2680178e7af9d555750309d4ca2b9c51bab",
@@ -771,24 +389,6 @@
           "version": "0.2.0",
           "files": [
             {
-              "path": "debs/local.wikisource.reader_0.2.0_iphoneos-arm.deb",
-              "size": 922390,
-              "sha256": "4c72fe8a1ef2652fedc0dff6ea8ab00c5e5cf6cd854d7779eedc54f057f99c26",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.wikisource.reader",
-                "Name": "维基文库",
-                "Version": "0.2.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "WikisourceReader",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Unofficial Chinese Wikisource reader, search, bookmarks and reading progress for iOS 9."
-              }
-            },
-            {
               "path": "source/wikisource/0.2.0/source.zip",
               "size": 848793,
               "sha256": "6aaa5e82afb28b98d91a85f6e71ceacddee5cb4c695162993b818cee19f88e41",
@@ -808,36 +408,11 @@
           "version": "0.1.0",
           "files": [
             {
-              "path": "debs/local.wikisource.reader_0.1.0_iphoneos-arm.deb",
-              "size": 885200,
-              "sha256": "74508ac1e3a6196509362088fe06b3dd36176306ede5c87326c6f0696cc26401",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.wikisource.reader",
-                "Name": "维基文库",
-                "Version": "0.1.0",
-                "Architecture": "iphoneos-arm",
-                "Section": "Utilities",
-                "Priority": "optional",
-                "Maintainer": "WikisourceReader",
-                "Depends": "firmware (>= 9.0)",
-                "Description": "Unofficial Chinese Wikisource reader, search, bookmarks and reading progress for iOS 9."
-              }
-            },
-            {
               "path": "source/wikisource/0.1.0/source.zip",
               "size": 827321,
               "sha256": "0522ee5f00dd408c5c39efa6420b7da373a085d9b78a7719cce472a78a550635",
               "type": "source",
               "label": "对应源码 ZIP"
-            },
-            {
-              "path": "ipa/wikisource/0.1.0/wikisource.ipa",
-              "size": 895433,
-              "sha256": "0fccd1faaddd861ec0d554336501f7601ca254d320a6eb49d22504b9c116f3d3",
-              "type": "ipa",
-              "label": "IPA 安装包"
             }
           ]
         }
@@ -860,7 +435,7 @@
           "version": "0.2.0",
           "files": [
             {
-              "path": "debs/local.onegram.loginfix_0.2.0_iphoneos-arm.deb",
+              "path": "deb/local.onegram.loginfix_0.2.0_iphoneos-arm.deb",
               "size": 8770,
               "sha256": "226b962ca61fe166a175352191026e06c41b5fabb37e4ce82aacad9edbd1ab68",
               "type": "deb",
@@ -906,7 +481,7 @@
           "version": "0.1.0",
           "files": [
             {
-              "path": "debs/local.wikipedia.mobileview.compat_0.1.0_iphoneos-arm.deb",
+              "path": "deb/local.wikipedia.mobileview.compat_0.1.0_iphoneos-arm.deb",
               "size": 9752,
               "sha256": "8ebe0a096995ecabffe729e260d0affeaf0f85b7fe14658a4d4e4d2750484f7b",
               "type": "deb",
@@ -951,7 +526,7 @@
           "version": "1.0.0",
           "files": [
             {
-              "path": "debs/local.luoxian.aliceresponseguard_1.0.0_iphoneos-arm.deb",
+              "path": "deb/local.luoxian.aliceresponseguard_1.0.0_iphoneos-arm.deb",
               "size": 4430,
               "sha256": "2966809bf2eb51925cf670f158cc46f7a89151b8f0441ef7e77de4fe6ac3fe85",
               "type": "deb",
@@ -996,7 +571,7 @@
           "version": "1.0.0",
           "files": [
             {
-              "path": "debs/local.lockekingdom.displayfix_1.0.0_iphoneos-arm.deb",
+              "path": "deb/local.lockekingdom.displayfix_1.0.0_iphoneos-arm.deb",
               "size": 3742,
               "sha256": "e6b690f93fda728c15b9352aa77f265de34767c31ce603be3c735a48ee3dbec7",
               "type": "deb",
@@ -1011,189 +586,6 @@
                 "Section": "Tweaks",
                 "Depends": "mobilesubstrate, firmware (>= 6.0)",
                 "Installed-Size": "40"
-              }
-            }
-          ]
-        }
-      ],
-      "icon": "icons/package.svg"
-    },
-    {
-      "id": "locke-type",
-      "name": "洛克图鉴 · 属性克制",
-      "category": "patches",
-      "os": "iOS 6+ · ARMv7",
-      "tagline": "修正旧战斗模拟中的属性映射。",
-      "description": "依据原应用附带的克制表，校正类型编号与伤害倍率。",
-      "notes": [
-        "仅适用于洛克王国图鉴 1.2 和 rootful 越狱环境。",
-        "使用其他战斗补丁前，请阅读该补丁的依赖和功能说明。"
-      ],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "files": [
-            {
-              "path": "debs/local.lockekingdom.typefix_1.0.0_iphoneos-arm.deb",
-              "size": 4646,
-              "sha256": "fc1d98119352a4404025f1ed8953a680aecc5dceb4c941dea64bd5beca1e4bf2",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.lockekingdom.typefix",
-                "Name": "Locke Kingdom Type Chart Fix",
-                "Version": "1.0.0",
-                "Architecture": "iphoneos-arm",
-                "Description": "Correct type multipliers using the app bundled chart images.\n Repairs mismatched primary type IDs in the battle simulator.\n Only affects com.uwingame.roco.ipad.free version 1.2.\n Tested on jailbroken iPad 3 with iOS 9.3.6.\n Changes battle type multipliers only; preserves the app binary and saves.",
-                "Maintainer": "Local Patch",
-                "Section": "Tweaks",
-                "Depends": "mobilesubstrate, firmware (>= 6.0)",
-                "Installed-Size": "52"
-              }
-            }
-          ]
-        }
-      ],
-      "icon": "icons/package.svg"
-    },
-    {
-      "id": "locke-stats",
-      "name": "洛克图鉴 · 种族值与伤害",
-      "category": "patches",
-      "os": "iOS 6+ · ARMv7",
-      "tagline": "按同时代数据校对宠物与等级公式。",
-      "description": "采用指定的 4399 旧种族表，调整等级数值、速度出招顺序与普通伤害计算；统一满天赋 31、努力值 0、中性性格。",
-      "notes": [
-        "2.0.1 对未收录的宠物保留原数据；不宣称覆盖页游的全部技能机制。",
-        "仅适用于原图鉴 1.2；需 MobileSubstrate。"
-      ],
-      "versions": [
-        {
-          "version": "2.0.1",
-          "files": [
-            {
-              "path": "debs/local.lockekingdom.statfix_2.0.1_iphoneos-arm.deb",
-              "size": 79622,
-              "sha256": "ec5bf5dc9adccb60fdc869b514dcd7111680726dcfd5f0236ebeb67d6ed81de3",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.lockekingdom.statfix",
-                "Name": "Locke Kingdom Stats and Battle Fix",
-                "Version": "2.0.1",
-                "Architecture": "iphoneos-arm",
-                "Description": "Audited species data, level stats, speed order and ordinary webgame damage.\n Uses IV31, EV0 and neutral nature. Uses the user-selected 4399 legacy species table.\n Matches 86 species and retains original data for unlisted IDs. Corrects 23 species and uses level, power, attack/defense and type damage.\n Original simplified special/change skill effects remain.\n Only affects com.uwingame.roco.ipad.free version 1.2.\n ARMv7 executable UUID checked before hooking.",
-                "Maintainer": "Local Patch",
-                "Section": "Tweaks",
-                "Depends": "mobilesubstrate, firmware (>= 6.0)",
-                "Installed-Size": "325"
-              }
-            }
-          ]
-        },
-        {
-          "version": "2.0.0",
-          "files": [
-            {
-              "path": "debs/local.lockekingdom.statfix_2.0.0_iphoneos-arm.deb",
-              "size": 79646,
-              "sha256": "573686ed54e941dd473e2e9841426fdcfcdee14ba4e7519877af2771480360f0",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.lockekingdom.statfix",
-                "Name": "Locke Kingdom Stats and Battle Fix",
-                "Version": "2.0.0",
-                "Architecture": "iphoneos-arm",
-                "Description": "Audited species data, level stats, speed order and ordinary webgame damage.\n Uses IV31, EV0 and neutral nature. Audits 393 IDs, retains 5 conflicted old species.\n Corrects 18 species and uses level, power, attack/defense and type damage.\n Original simplified special/change skill effects remain.\n Only affects com.uwingame.roco.ipad.free version 1.2.\n ARMv7 executable UUID checked before hooking.",
-                "Maintainer": "Local Patch",
-                "Section": "Tweaks",
-                "Depends": "mobilesubstrate, firmware (>= 6.0)",
-                "Installed-Size": "325"
-              }
-            }
-          ]
-        },
-        {
-          "version": "1.0.1",
-          "files": [
-            {
-              "path": "debs/local.lockekingdom.statfix_1.0.1_iphoneos-arm.deb",
-              "size": 6582,
-              "sha256": "b1e370b6bbc5c6d064a04ef48453327bfb2249194e21a3328eb396cecc2bd8cf",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.lockekingdom.statfix",
-                "Name": "Locke Kingdom Level and Speed Fix",
-                "Version": "1.0.1",
-                "Architecture": "iphoneos-arm",
-                "Description": "Webgame-style level stats and speed-based battle order.\n Uses IV31, EV0 and neutral nature, with verified water and Banbanke data repair.\n Keeps simplified damage and change skill rules of the original app.\n Only affects com.uwingame.roco.ipad.free version 1.2.\n ARMv7 executable UUID checked before hooking.",
-                "Maintainer": "Local Patch",
-                "Section": "Tweaks",
-                "Depends": "mobilesubstrate, firmware (>= 6.0)",
-                "Installed-Size": "52"
-              }
-            }
-          ]
-        },
-        {
-          "version": "1.0.0",
-          "files": [
-            {
-              "path": "debs/local.lockekingdom.statfix_1.0.0_iphoneos-arm.deb",
-              "size": 6584,
-              "sha256": "1bf5c9caab0defa997977c134dbb9e592e10ebd2ef9661528eb4b9f53508e57c",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.lockekingdom.statfix",
-                "Name": "Locke Kingdom Level and Speed Fix",
-                "Version": "1.0.0",
-                "Architecture": "iphoneos-arm",
-                "Description": "Webgame-style level stats and speed-based battle order.\n Uses IV31, EV0 and neutral nature, with verified water magic defense repair.\n Keeps simplified damage and change skill rules of the original app.\n Only affects com.uwingame.roco.ipad.free version 1.2.\n ARMv7 executable UUID checked before hooking.",
-                "Maintainer": "Local Patch",
-                "Section": "Tweaks",
-                "Depends": "mobilesubstrate, firmware (>= 6.0)",
-                "Installed-Size": "52"
-              }
-            }
-          ]
-        }
-      ],
-      "icon": "icons/package.svg"
-    },
-    {
-      "id": "locke-battle",
-      "name": "洛克图鉴 · 回合战斗",
-      "category": "patches",
-      "os": "iOS 6+ · ARMv7",
-      "tagline": "从胜率模拟，走向可以操作的对战。",
-      "description": "十秒回合、自由选技能、血条与战斗日志，支持 PvE 和本地双人 PvP，并加入控制、持续伤害及能力等级规则。",
-      "notes": [
-        "依赖种族值补丁 ≥ 2.0.1 和横屏补丁 ≥ 1.0.0；本源提供这些依赖。",
-        "需要原图鉴 1.2、MobileSubstrate；部分复杂技能效果仍为有限实现。"
-      ],
-      "versions": [
-        {
-          "version": "1.1.0",
-          "files": [
-            {
-              "path": "debs/local.lockekingdom.turnbattle_1.1.0_iphoneos-arm.deb",
-              "size": 43616,
-              "sha256": "013040902f133125f9abb3a3b9491b0cfe0c7c986ca3e9e2971aa33c5770328e",
-              "type": "deb",
-              "label": "DEB 安装包",
-              "control": {
-                "Package": "local.lockekingdom.turnbattle",
-                "Name": "Locke Kingdom Turn Battle",
-                "Version": "1.1.0",
-                "Architecture": "iphoneos-arm",
-                "Description": "Interactive ten-second turns, move selection, HP bars and battle log.\n Replaces win-rate playback for Locke Kingdom Guide 1.2.\n Adds PvE / local PvP and 243 explicit effect rules for control, residual HP and stages.\n Some complex effects remain partial and are marked in skill details.",
-                "Maintainer": "Local Patch",
-                "Section": "Tweaks",
-                "Depends": "mobilesubstrate, firmware (>= 6.0), local.lockekingdom.statfix (>= 2.0.1), local.lockekingdom.displayfix (>= 1.0.0)",
-                "Installed-Size": "240"
               }
             }
           ]
